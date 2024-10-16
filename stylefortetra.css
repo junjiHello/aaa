@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/***** 全体に関する装飾 ******/
+body {
+  background-color: #000000;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+/***** ヘッダーに関する装飾 ******/
+header h1 {
+  font-size: 35px;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  padding: 6px 0;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/***** メイン部の装飾 ******/
+h1 {
+  font-size: 48px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 1px 0;
+  margin:center;
+  width: 1200px;
+  text-align: auto;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+h2 {
+  font-size: 27px;
+  margin: 20px auto;
+  text-align: start;
+  width: 950px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 17px;
+  margin: 10px auto;
+  width: 870px;
+  color: #ffffff;
+  text-align:justify ;
+}
+
+h4 {
+  font-size: 15px;
+  margin: 5px;
+  width: 850px;
+  color: #ffffff;
+  text-align: start;
+}
+
+h5 {
+  font-size: 23px;
+  margin: 5px;
+  width: 1000px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+h6 {
+  font-size: 18px;
+  margin: 5px;
+  width: 1000px;
+  color: #ffffff;
+  margin: 0 auto;
+
+}
+
+h7{
+  font-size: 10px;
+  margin: 5px;
+  width: 1000px;
+  color: #ffffff;
+  margin: center;
+  
+}
+p,ul {
+  text-align: start;
+  margin: 0 auto 20px;
+  width: 300px;
+}
+img {
+  border-radius: 3%;
+  margin: 1px;
+
+}
+a {
+  background-color: #000000;
+  display: block;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: auto;
+}
+ul,ol {
+  width: 300px;
+  margin: 0 auto;
+}
+li {
+  margin-bottom: 20px;
+}
+
+.slider{
+  width: 660px;
+  height: 290px;
+  display:flex;
+  border: #ffffff;
+  overflow-x:auto;
+  margin:auto; 
+}
+
+.slide{
+  width: 165px;
+  margin-right: 212px;
+  text-align: center;
+}
+
+underline-text{
+  text-decoration: underline ;
+}
+
+.sns-links {
+  display: inline-block; /* 各リンクをインラインブロックにします */
+  margin-right: 10px; /* ロゴ間にスペースを追加します */
+}
+
+.sns-links img {
+  display: inline; /* 画像もインライン表示にします */
+}
+
+
+
+
+/***** フッターに関する装飾 ******/
+footer p {
+  font-size: 20px;
+}
+footer img {
+  margin: 20px 0;
+}
+footer a {
+  display: contents;
+}
+
